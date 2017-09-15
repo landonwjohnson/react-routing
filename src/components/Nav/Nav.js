@@ -12,14 +12,14 @@ function Nav( { items } ) {
       <div id="Nav__linksContainer">
 
         <Link className="navLink" to="/">
-        <span className="Nav__label">Store</span>
+            <span className="Nav__label">Crusca Pottery</span>
         </Link>
 
         <Link className="navLink" to="/checkout">
-        <div id="Nav__checkoutContainer">
-          <div id="Nav__itemsInCart"> { items } </div>
-          <ShoppingCart id="Nav__shoppingCart" />
-        </div>
+          <div id="Nav__checkoutContainer">
+            <div id="Nav__itemsInCart"> { items } </div>
+            <ShoppingCart id="Nav__shoppingCart" />
+          </div>
         </Link>
       </div>
     </div>
